@@ -42,7 +42,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-       		'kinova_move = turtlebot_move.kinova_move:main',
+       		'final_code = turtlebot_move.final_code:main',
             'gen3lite_pymoveit2 = 516_final.gen3lite_pymoveit2:main',
         ],
     },
